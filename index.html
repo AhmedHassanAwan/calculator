@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    
+          
+
+    <div id="container">
+        <div id="calculator">
+            <input readonly type="text" id="input">
+        </div>
+        <br>
+        <div>
+            <button id="green" onclick="clr()">AC</button>
+            <button id="green" onclick="clear()">DE </button>
+            <button id="green" onclick="dabaya('*')">x</button>
+            <button id="green" onclick="dabaya('%')">%</button>
+        </div>
+        <br>
+
+        <div>
+            <button onclick="dabaya(9)">9</button>
+            <button onclick="dabaya(8)">8</button>
+            <button onclick="dabaya(7)">7</button>
+            <button onclick="dabaya('+')">+</button>
+
+        </div>
+         <div>
+            <button onclick="dabaya(6)">6</button>
+            <button onclick="dabaya(5)">5</button>
+            <button onclick="dabaya(4)">4</button>
+            <button id="green" onclick="dabaya('-')">-</button>
+
+        </div>
+        <div>
+            <button onclick="dabaya(3)">3</button>
+            <button onclick="dabaya(2)">2</button>
+            <button onclick="dabaya(1)">1</button>
+            <button id="green" onclick="dabaya('/')">/</button>
+        </div>
+        <div>
+            <button onclick="dabaya(0)">0</button>
+            <button onclick="dabaya('00')">00</button>
+            <button onclick="dabaya('.')">.</button>
+            <button id="equal" onclick="equal('=')">=</button>
+           
+
+        </div>
+    </div>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>
